@@ -16,14 +16,29 @@
     </ul>
 </nav>
 <hr>
+<P>Kolla genom frågorna och se att du har svarat på allt som frågas Efter</P>
 <p> <strong> en kort beskrivning (syfte och vad de gör) av var och en av protokollen HTTP, TCP och IP.</strong></p>
 
 <p>HTTP(Hypertext Transfer Protocol): HTTP handlar om överföringen av document mellan klient och server. Hypertext i protokollet betonar att dessa dokument som överförs kan innehålla refrencer till andra filer som kan leda till att flera filöverföringsbegärnan görs, ett exembel på detta är HTML-koden < img src="bild.jpg" alt="..."></p>
 
 <p>TCP skötter uppdelningen av ip-adresser och sätter ihop det i olika grupper/packet</p>
 
-<P>IP: ip adress/ internetprotocol.</P>
-<p> <strong> vilka delar följande url består av:
+<p>Tcp skötter uppdelningen av information på nätet och delar upp det i olika informationspacket och även nummrerar dessa packet så att de sen sätts ihop i rätt ordning. 
+Efter uppdelningen så skickas paketen vidare till ip protokollet som adresserar det hela och skickar det vidare ut på nätet, sen kommer detta till en router som avgör var den bästa vägen att skicka packeten är. När denna router har skickat vidare informationen så skickas det en bekräftelse till ip protokolet att packten har kommit fram, ip protokolet kan inte se nummeringen på packeten utan bara adresseringen och duppel checkar att de adresser de har fått bekräftelse om stämmer överense med de som skickades i början av processen. Ifall det är  något packet som saknas så skickas det bara om på nytt så att alla packeten kommer fram, ip protokolet skickar över de adresserade informationspaketen till TCP som sätter ihop packet i rättordning så att information/meddelandet kan laddas upp rätt. </p>
+
+<P>IP: ip adress/internetprotocol: Varje enhet ansluten till internet har en unik ip-adresse (ip-nummer).För att lättare förtså detta så kan man lyckna det vid att varje telefon har ett unikt telefonnummer. I
+Internetprotokolet tar även hand om adresseringen av information på nätet, och samarbetar med TCP protokolet</P>
+
+<p> <strong> vilka delar består följande url av:
     http://medieteknik.lnu.se/1me321/uppg/u1.html#fragor</strong></p>
+    <p> Den här url adressen betsår av 
+        http: talar om vad det är för tjänst/protokol som documentet använder. http/https står för webb protokolet. 
+        medieteknik.lnu.se: Det här stycket är för ip-adress, domännamn och adressen till servern. 
+        lnu.se: Detta är domänen i url adressen. 
+        1me321/uppg/u1.html#fragor: Detta är adressen till servern där documentet förvarars.   
+    </p>
+
+    <P>Kolla genom frågorna och se att du har svarat på allt som frågas Efter</P>
+
 </body>
 </html>
