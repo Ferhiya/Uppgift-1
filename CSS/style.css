@@ -3,7 +3,7 @@
 Body{
     max-width: 1000px;
    margin: 0 auto;
-   background-color: beige;
+   background-color: rgb(207, 207, 154);
 }
 #Gallery2 img{
     width: 350px;
@@ -18,11 +18,10 @@ nav ul{
 }
 nav li {
     border: 3px solid yellow;
-    background-color: red;
+    background-color: plum;
     width: 13rem;
     text-align: center;
-    margin-bottom: 0.5rem;
-    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    padding: 0;
     display: inline-block;
   }
   nav a {
@@ -33,4 +32,9 @@ nav li {
     text-decoration: none;
     display: block;
     padding: 0.5rem;
+  }
+  nav a:hover {
+    background-color: pink;
+    color: red;
+
   }
