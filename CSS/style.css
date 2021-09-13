@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+Body{
+    max-width: 1000px;
+   margin: 0 auto;
+   background-color: beige;
+}
+#Gallery2 img{
+    width: 350px;
+}
