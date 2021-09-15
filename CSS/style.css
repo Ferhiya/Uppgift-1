@@ -13,10 +13,9 @@ h1,h3{
     font-size: 20px;
     font-style: normal;
 }
-#Gallery2 img{
+#Gallery2 {
     width: 350px;
 }
-
 nav{
     font-size: 2rem;
 }
