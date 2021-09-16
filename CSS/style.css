@@ -6,13 +6,20 @@ Body{
    background-color: #fcfae4;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-size: 16px;
-   font-style: italic;
+   font-style: normal;
 }
 h1,h3{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: normal;
 }
+.svar{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style:italic;
+  line-height: 2.5rem;
+
+}
+
 article img{
   width: 350px;
 }
@@ -49,10 +56,23 @@ nav li {
     font-weight: bold;
     font-size: 1rem;
   }
-  
+
   nav a:hover {
     background-color:whitesmoke;
     color:red;
  }
-
+footer{
+  border-bottom: 1px solid red;
+  border-top: 1px solid red;
+  text-align: center;
+}
+footer a:hover{
+  background-color:whitesmoke;
+    color:red;
+    text-decoration: underline;
+}
+footer a{
+  text-decoration: none;
+  color:brown;
+}
  
