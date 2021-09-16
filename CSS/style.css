@@ -3,7 +3,7 @@
 Body{
     max-width: 1000px;
    margin: 0 auto;
-   background-color: rgb(207, 207, 154);
+   background-color: #fcfae4;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-size: 16px;
    font-style: italic;
@@ -17,33 +17,36 @@ article img{
   width: 350px;
 }
 nav{
-    font-size: 2rem;
+    font-size: 0.5rem;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
 }
 nav ul{
     list-style-type: none;
-    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
 }
 nav li {
-    border: 3px solid yellow;
-    background-color: plum;
-    width: 13rem;
-    text-align: center;
+  display: inline-block;
+    border: 3px solid brown;
     padding: 0;
-    display: inline-block;
+    margin: 0.5rem;
   }
   nav a {
     border: 3px dotted white;
-    font-size: 1.3rem;
-    color: white;
-    font-weight: bold;
     text-decoration: none;
     display: block;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: brown;
+    font-weight: bold;
+    font-size: 1rem;
   }
   
   nav a:hover {
-    background-color: pink;
-    color: red;
+    background-color:whitesmoke;
+    color:red;
 
   }
 
