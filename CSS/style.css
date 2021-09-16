@@ -16,9 +16,12 @@ h1,h3{
 article img{
   width: 350px;
 }
-#gallery3{
-  width: 350px;
+#gallery2{
+  width: 400px;
 }
+#gallery1{
+  width: 400px;
+} 
 nav{
     font-size: 0.5rem;
     border-bottom: 1px solid red;
