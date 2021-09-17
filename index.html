@@ -17,18 +17,18 @@
         <li><a href="CSS.html"> Cascading Style Sheets (CSS)</a></li>
     </ul>
 </nav>
-<div class="wrapper">
+
 <h2> <strong> en kort beskrivning (syfte och vad de gör) av var och en av protokollen HTTP, TCP och IP&#x0003F; </strong></h2>
 
 <h3>HTTP(Hypertext Transfer Protocol)</h3>
 <div class="svar">
-    <p>HTTP handlar om överföringen av document mellan klient och server. Hypertext i protokollet betonar att dessa dokument som överförs kan innehålla refrencer till andra filer som kan leda till att flera filöverföringsbegärnan görs, ett exembel på detta är en html-fil som innehåller bilder</p>
+    <p>HTTP handlar om överföringen av document mellan klient och server på nätet. Hypertext i protokollet betonar att dessa dokument som överförs kan innehålla refrencer till andra filer som kan leda till att flera filöverföringsbegärnan görs, ett exembel på detta är en html-fil som innehåller bilder, videos eller ljudfilar.</p>
 </div>
 
 <h3>TCP skötter uppdelningen av ip-adresser och sätter ihop det i olika grupper/packet</h3>
 <div class="svar"> 
 <p>Tcp skötter uppdelningen av information på nätet och delar upp det i olika informationspacket och även nummrerar dessa packet så att de sen sätts ihop i rätt ordning. 
-Efter uppdelningen så skickas paketen vidare till ip protokollet som adresserar det hela och skickar det vidare ut på nätet, sen kommer detta till en router som avgör var den bästa vägen att skicka packeten är. När denna router har skickat vidare informationen så skickas det en bekräftelse till ip protokolet att packten har kommit fram, ip protokolet kan inte se nummeringen på packeten utan bara adresseringen och duppel checkar att de adresser de har fått bekräftelse om stämmer överense med de som skickades i början av processen. Ifall det är  något packet som saknas så skickas det bara om på nytt så att alla packeten kommer fram, ip protokolet skickar över de adresserade informationspaketen till TCP som sätter ihop packet i rättordning så att information/meddelandet kan laddas upp rätt. </p>
+Efter uppdelningen så skickas paketen vidare till ip protokollet som adresserar det hela och skickar det vidare ut på nätet, sen kommer detta till en router som avgör var den bästa vägen att skicka packeten är. När denna router har skickat vidare informationen så skickas det en bekräftelse till ip protokolet att packten har kommit fram, ip protokolet kan inte se nummeringen på packeten utan bara adresseringen och duppel checkar att de adresser de har fått bekräftelse om stämmer överense med de som skickades i början av processen. Ifall det är  något packet som saknas så skickas det bara om på nytt så att alla packeten kommer fram, ip protokolet skickar över de adresserade informationspaketen till TCP som sätter ihop packeten i rättordning så att information/meddelandet kan laddas upp rätt. </p>
 <img src="img/tcpIP.jpg" id="gallery1" alt="TCP och IP protokollen">
 </div>
 <h3>IP: internetprotocol:</h3>
@@ -42,19 +42,22 @@ Efter uppdelningen så skickas paketen vidare till ip protokollet som adresserar
     http://medieteknik.lnu.se/1me321/uppg/u1.html#fragor</h3>
     <div class="svar">
     <p> Den här url adressen betsår av</P>
+        <ul>
         
-        <P>http: talar om vad det är för tjänst/protokol som documentet använder. http/https står för webb protokolet.</p> 
+        <li>http: talar om vad det är för tjänst/protokol som documentet använder. http/https står för webb protokolet.</li> 
        
-    <p> medieteknik.lnu.se: Det här stycket är för ip-adress, domännamn och adressen till servern. 
-    <p> lnu.se: Detta är domänen i url adressen.</p>
+    <li> medieteknik.lnu.se: Det här stycket är för ip-adress, domännamn och adressen till servern. </li>
 
-     <P>1me321/uppg/u1.html#fragor: Detta är adressen till servern där documentet förvarars.</p>
+    <li> lnu.se: Detta är domänen i url adressen.</li>
 
-    <p>u1.html#fragor: Detta är namnet på filen</p> 
+     <li>1me321/uppg/u1.html#fragor: Detta är adressen till servern där documentet förvarars.</li>
 
-    <P>kolla genom frågorna och se att du har svarat på allt som frågas Efter</P>
+    <li>u1.html#fragor: Detta är namnet på filen</li> 
+
+    <li>kolla genom frågorna och se att du har svarat på allt som frågas Efter</li>
      </div>
-    </div>
+    </ul>
+
      <footer>
          <p> &#x02606; Lär dig mer om webbutveckling på
          <a href="http://medieteknik.lnu.se/1me321/index.html" target="blank"> medieteknik</a> &#x02606;</p>

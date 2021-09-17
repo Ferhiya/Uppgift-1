@@ -26,16 +26,17 @@ article img{
   margin: 0 1rem 1rem 0;
   border-radius: 1rem;
 }
-article{
-  margin: 2rem 0;
-}
 article::after{
   content:"";
   display: table;
   clear:both;
+ }
+article{
+  margin: 2rem 0;
 }
+
 #gallery2{
-  width: 500px;
+  width: 800px;
 }
 
 #gallery1{
@@ -45,7 +46,8 @@ nav{
     font-size: 0.5rem;
     border-bottom: 1px solid red;
     border-top: 1px solid red;
-}
+  }
+    }
 nav ul{
     list-style-type: none;
     margin: 0;
