@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1> Datakommunikation och webbadresser</h1> 
-<P>Kolla genom frågorna och se att du har svarat på allt som frågas Efter</P>
+
 <nav>
     <ul>
         <li><a href="index.html" id="thisPage">Datakommunikation och webbadresser</a></li>
@@ -18,33 +18,32 @@
     </ul>
 </nav>
 
-<h2> <strong> en kort beskrivning (syfte och vad de gör) av var och en av protokollen HTTP, TCP och IP&#x0003F; </strong></h2>
+<h2>en kort beskrivning (syfte och vad de gör) av var och en av protokollen HTTP, TCP och IP&#x0003F; </h2>
 
-<h3>HTTP(Hypertext Transfer Protocol)</h3>
+<h3>HTTP: Hypertext Transfer Protocol</h3>
 <div class="svar">
     <p>HTTP handlar om överföringen av document mellan klient och server på nätet. Hypertext i protokollet betonar att dessa dokument som överförs kan innehålla refrencer till andra filer som kan leda till att flera filöverföringsbegärnan görs, ett exembel på detta är en html-fil som innehåller bilder, videos eller ljudfilar.</p>
 </div>
 
-<h3>TCP skötter uppdelningen av ip-adresser och sätter ihop det i olika grupper/packet</h3>
+<h3>TCP:Transmission Control Protocol</h3>
 <div class="svar"> 
 <p>Tcp skötter uppdelningen av information på nätet och delar upp det i olika informationspacket och även nummrerar dessa packet så att de sen sätts ihop i rätt ordning. 
 Efter uppdelningen så skickas paketen vidare till ip protokollet som adresserar det hela och skickar det vidare ut på nätet, sen kommer detta till en router som avgör var den bästa vägen att skicka packeten är. När denna router har skickat vidare informationen så skickas det en bekräftelse till ip protokolet att packten har kommit fram, ip protokolet kan inte se nummeringen på packeten utan bara adresseringen och duppel checkar att de adresser de har fått bekräftelse om stämmer överense med de som skickades i början av processen. Ifall det är  något packet som saknas så skickas det bara om på nytt så att alla packeten kommer fram, ip protokolet skickar över de adresserade informationspaketen till TCP som sätter ihop packeten i rättordning så att information/meddelandet kan laddas upp rätt. </p>
 <img src="img/tcpIP.jpg" id="gallery1" alt="TCP och IP protokollen">
 </div>
-<h3>IP: internetprotocol:</h3>
+<h3>IP: internetprotocol</h3>
 
 <div class="svar">
 <p> Internetprotokollet tar hand om adresseringen av information på nätet, och samarbetar med TCP protokolet. Här  skapar Internetprotokolet ip adresser för informationspaketen som det tar emot från Tcp.Ip kan även stå för ip-nummer. Varje enhet ansluten till internet har en unik ip-adress (ip-nummer).För att lättare förtså detta så kan man jämnföra det vid att varje telefon har ett unikt telefonnummer. Det är med hjälp av dessa ip-nummer som Internetprotokolet vet vart information som har blivit adresserad ska skickas.
 </P>
 </div>
 
-<h3> vilka delar består följande url av:
+<h3> Vilka delar består följande url av:
     http://medieteknik.lnu.se/1me321/uppg/u1.html#fragor</h3>
     <div class="svar">
-    <p> Den här url adressen betsår av</P>
-        <ul>
+    <ul>
         
-        <li>http: talar om vad det är för tjänst/protokol som documentet använder. http/https står för webb protokolet.</li> 
+    <li>http: talar om vad det är för tjänst/protokol som documentet använder. http/https står för webb protokolet.</li> 
        
     <li> medieteknik.lnu.se: Det här stycket är för ip-adress, domännamn och adressen till servern. </li>
 
@@ -54,8 +53,8 @@ Efter uppdelningen så skickas paketen vidare till ip protokollet som adresserar
 
     <li>u1.html#fragor: Detta är namnet på filen</li> 
 
-    <li>kolla genom frågorna och se att du har svarat på allt som frågas Efter</li>
      </div>
+     
     </ul>
 
      <footer>
